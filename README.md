@@ -27,7 +27,7 @@ Poverioci su **pravna lica** (PL) koji pripadaju **privatnom i javnom sektoru**,
 Dužnici su korisnici javnih sredstava (KJS) **tipa 0,1,2,4,6** koji su **u obavezi da provere da li je faktura koja im je ispostavljena registrovana u CRF sistemu** i da izvrše plaćanje po zadatoj instrukciji, samo ukoliko registracija postoji u CRF.
 
 ### Fizička lica
-####Lokalni administrator
+#### Lokalni administrator
 Lokalni administrator je ovlašćeno lice koje ima pravo pristupa i sva ovlašćenja za rad u CRF za pravno lice koje predstavlja.
 
 #### Lokalni korisnik
