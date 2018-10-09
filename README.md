@@ -1,7 +1,6 @@
-# CRF
-Centralni registar faktura
+# CRF - Centralni registar faktura
 
-Ministarstvo finansija sprovodi mere i aktivnosti u vezi sa kontrolom preuzetih obaveza u javnom sektoru što između ostalog podrazumeva evidentiranje, praćenje i izveštavanje o neizmirenim obavezama. Za obavljanje pomenutih aktivnosti uspostavljen je informacioni sistem pod nazivom Centralni registar faktura (CRF).
+Ministarstvo finansija sprovodi mere i aktivnosti u vezi sa **kontrolom preuzetih obaveza u javnom sektoru** što između ostalog podrazumeva evidentiranje, praćenje i izveštavanje o neizmirenim obavezama. Za obavljanje pomenutih aktivnosti uspostavljen je informacioni sistem pod nazivom Centralni registar faktura (CRF).
 
 Uprava za trezor je zadužena za koordinaciju aktivnosti između organizacionih jedinica Ministarstva finansija po pitanju uspostavljanja CRF servisa, za kontrolu razvoja, održavanje kompletnog informacionog sistema i njegov operativni rad.
 
@@ -9,16 +8,16 @@ Uprava za trezor je zadužena za koordinaciju aktivnosti između organizacionih 
 CRF realizuje digitalni servis koji omogućava uvid u sve fakture izdate od strane pravnih lica (PL) (privatni i javni sektor) u kojima su korisnici javnih sredstava (KJS) dužnici.
 
 ## Informacije kojima CRF raspolaže
-pravna lica koja su registrovana u CRF
-fizička lica koja su ovlašćena za rad u CRF
-registrovane fakture u CRF
-izvršena plaćanja u platnom prometu UT
+1. pravna lica koja su registrovana u CRF
+2. fizička lica koja su ovlašćena za rad u CRF
+3. registrovane fakture u CRF
+4. izvršena plaćanja u platnom prometu UT
 ## Šta CRF obezbeđuje
-izvršavanje procesa registracije PL
-izvršavanje procesa registracije faktura
-integraciju platnih naloga u cilju upravljanja statusima faktura kroz automatsku registraciju plaćanja
-integritet podataka
-preglede unetih podataka i izveštavanje
+1. izvršavanje procesa registracije PL
+2. izvršavanje procesa registracije faktura
+3. integraciju platnih naloga u cilju upravljanja statusima faktura kroz automatsku registraciju plaćanja
+4. integritet podataka
+5. [preglede](https://crf.trezor.gov.rs/docs/user/invoices/list/) unetih podataka i izveštavanje
 ## Učesnici
 ### Pravna lica
 ### Poverioci
