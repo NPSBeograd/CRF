@@ -21,14 +21,14 @@ CRF realizuje digitalni servis koji omogućava uvid u sve fakture izdate od stra
 ## Učesnici
 ### Pravna lica
 #### Poverioci
-Poverioci su pravna lica (PL) koji pripadaju privatnom i javnom sektoru, koji su u obavezi da registruju fakturu u CRF sistemu nakon čega mogu da ispostave ispravnu instrukciju za plaćanje dužniku.
+Poverioci su **pravna lica** (PL) koji pripadaju **privatnom i javnom sektoru**, koji su u **obavezi da registruju fakturu u CRF sistemu** nakon čega mogu da ispostave ispravnu instrukciju za plaćanje dužniku.
 
-## Dužnici
-Dužnici su korisnici javnih sredstava (KJS) tipa 0,1,2,4,6 koji su u obavezi da provere da li je faktura koja im je ispostavljena registrovana u CRF sistemu i da izvrše plaćanje po zadatoj instrukciji, samo ukoliko registracija postoji u CRF.
+#### Dužnici
+Dužnici su korisnici javnih sredstava (KJS) **tipa 0,1,2,4,6** koji su **u obavezi da provere da li je faktura koja im je ispostavljena registrovana u CRF sistemu** i da izvrše plaćanje po zadatoj instrukciji, samo ukoliko registracija postoji u CRF.
 
-## Fizička lica
-Lokalni administrator
+### Fizička lica
+####Lokalni administrator
 Lokalni administrator je ovlašćeno lice koje ima pravo pristupa i sva ovlašćenja za rad u CRF za pravno lice koje predstavlja.
 
-## Lokalni korisnik
-Lokalni korisnik je ovlašćeno lice kome lokalni administrator kreira korisnički nalog i dodeljuje mu željenu kombinaciju aplikativnih ovlašćenja za rad u CRF za PL koje lokalni administrator predstavlja.
+#### Lokalni korisnik
+Lokalni korisnik je ovlašćeno lice kome lokalni administrator [kreira korisnički nalog](https://crf.trezor.gov.rs/docs/user/user-administration/user-create/) i dodeljuje mu željenu kombinaciju [aplikativnih ovlašćenja](https://crf.trezor.gov.rs/docs/user/user-administration/authorization/) za rad u CRF za PL koje lokalni administrator predstavlja.
