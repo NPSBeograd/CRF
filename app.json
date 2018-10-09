@@ -18,5 +18,8 @@
     "from": 50100,
     "to": 50149
   },
+  "features": [
+    "TranslationFile"
+  ],
   "runtime": "3.0"
 }
