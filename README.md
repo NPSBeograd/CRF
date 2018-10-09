@@ -13,14 +13,14 @@ CRF realizuje digitalni servis koji omogućava uvid u sve fakture izdate od stra
 3. registrovane fakture u CRF
 4. izvršena plaćanja u platnom prometu UT
 ## Šta CRF obezbeđuje
-1. izvršavanje procesa registracije PL
-2. izvršavanje procesa registracije faktura
-3. integraciju platnih naloga u cilju upravljanja statusima faktura kroz automatsku registraciju plaćanja
+1. izvršavanje procesa [registracije PL](https://crf.trezor.gov.rs/docs/user/register/)
+2. izvršavanje procesa [registracije faktura](https://crf.trezor.gov.rs/docs/user/register-invoice/)
+3. integraciju platnih naloga u cilju upravljanja statusima faktura kroz [automatsku registraciju plaćanja](https://crf.trezor.gov.rs/docs/user/invoices/settlement/)
 4. integritet podataka
-5. [preglede](https://crf.trezor.gov.rs/docs/user/invoices/list/) unetih podataka i izveštavanje
+5. [preglede](https://crf.trezor.gov.rs/docs/user/invoices/list/) unetih podataka i [izveštavanje](https://crf.trezor.gov.rs/docs/user/reporting/)
 ## Učesnici
 ### Pravna lica
-### Poverioci
+#### Poverioci
 Poverioci su pravna lica (PL) koji pripadaju privatnom i javnom sektoru, koji su u obavezi da registruju fakturu u CRF sistemu nakon čega mogu da ispostave ispravnu instrukciju za plaćanje dužniku.
 
 ## Dužnici
