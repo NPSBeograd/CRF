@@ -2,7 +2,7 @@
 Centralni registar faktura
 
 
-###Korisnička dokumentacija↵
+### Korisnička dokumentacija↵
 Ministarstvo finansija sprovodi mere i aktivnosti u vezi sa kontrolom preuzetih obaveza u javnom sektoru što između ostalog podrazumeva evidentiranje, praćenje i izveštavanje o neizmirenim obavezama. Za obavljanje pomenutih aktivnosti uspostavljen je informacioni sistem pod nazivom Centralni registar faktura (CRF).
 
 Uprava za trezor je zadužena za koordinaciju aktivnosti između organizacionih jedinica Ministarstva finansija po pitanju uspostavljanja CRF servisa, za kontrolu razvoja, održavanje kompletnog informacionog sistema i njegov operativni rad.
