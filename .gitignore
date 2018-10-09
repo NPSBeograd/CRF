@@ -1,1 +1,12 @@
-!.vscode/*
+build
+todo
+out
+node_modules
+*.vsix
+*.app
+npm-debug.log
+todo
+.alpackages
+.vscode/*
+!.vscode/launch.json.default
+todo/*
