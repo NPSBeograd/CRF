@@ -8,7 +8,4 @@ tableextension 50100 "CustomerExtCRF" extends Customer
             Caption = 'JBKJS';
         }
     }
-
-    var
-        myInt: Integer;
 }

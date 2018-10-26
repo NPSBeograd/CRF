@@ -3,10 +3,175 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="CRF">
     <body>
       <group id="body">
-        <trans-unit id="TableExtension 1554187733 - Field 872306950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 3907299929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CRF Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 2994142618 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Username - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 2575460289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 2183930012 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Token URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Token URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 4103712309 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register Invoice URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Register Invoice URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 1026085544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Invoice URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Get Invoice URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 356782760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel Invoice URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Cancel Invoice URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 10691242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Token Parser Query</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Token Parser Query - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 1851140295 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register Invoice Parser Query</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Register Invoice Parser Query - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 216811614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Invoice Parser Query</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Get Invoice Parser Query - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 3530131550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel Invoice Parser Query</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Cancel Invoice Parser Query - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 1496594050 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Web Requests</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Log Web Requests - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 2041674773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ping URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Ping URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 3288804135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ping Parser Query</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Ping Parser Query - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907299929 - Field 2438682911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatic Sending to CRF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CRFSetupCRF - Field Automatic Sending to CRF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - Control 2854443400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Functions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - Control ServiceFunctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - Control 2973269620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parsing Responses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - Control ParsingResponses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - Control 1216426568 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Additional Settings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - Control AdditionalSettings - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - Action 668966710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set URLs to Default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - Action SetURLsToDefault - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - Action 4263468516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Connection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - Action TestConnection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - Action 1872830300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import JBKJS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - Action CRFImportJBKJS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - NamedType 3838141333" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management window?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - NamedType EncryptionIsNotActivatedQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - NamedType 1791671425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must disable the service before you can make changes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - NamedType EnabledWarningTok</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - NamedType 298733869" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to disable the document exchange service?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - NamedType DisableEnableQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3907299929 - NamedType 3035575630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 is not enabled. Are you sure you want to exit?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - NamedType EnableServiceQst</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 845636470 - Field 872306950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>JBKJS</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerCRF - Field JBKJS - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExtCRF - Field JBKJS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2911478606 - Field 1172516717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CRF Invoice ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PurchaseHeaderExtCRF - Field CRF Invoice ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4040056939 - Field 1888020980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sent to CRF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvHdrExtCRF - Field Sent to CRF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4040056939 - Field 936683028 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CRF Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvHdrExtCRF - Field CRF Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4040056939 - Field 1172516717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CRF Invoice ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvHdrExtCRF - Field CRF Invoice ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1258260247 - Field 3780481789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CRF Invoice ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PurchInvHdrExtCRF - Field CRF Invoice ID  - Property Caption</note>
         </trans-unit>
       </group>
     </body>
