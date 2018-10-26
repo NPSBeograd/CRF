@@ -143,6 +143,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CRFSetupCRF - NamedType EnableServiceQst</note>
         </trans-unit>
+        <trans-unit id="PageExtension 730597473 - Action 1803534033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Central Invoice Registry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PostSalesInvExtCRF - Action CRF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 730597473 - Action 3045578685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CRF Export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PostSalesInvExtCRF - Action CRFExport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 730597473 - Action 2067738537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PostSalesInvExtCRF - Action CRFRegisterInvoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 730597473 - Action 4154352636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PostSalesInvExtCRF - Action CRFCancelInvoice - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 845636470 - Field 872306950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>JBKJS</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -2,14 +2,12 @@ pageextension 50101 "CustomerListExtCRF" extends "Customer List"
 {
     layout
     {
-        // Add changes to page layout here
+        addlast(Control1)
+        {
+            field(JBKJS; JBKJS)
+            {
+                ApplicationArea = All;
+            }
+        }
     }
-
-    actions
-    {
-        // Add changes to page actions here
-    }
-
-    var
-        myInt: Integer;
 }
