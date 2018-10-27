@@ -1,4 +1,4 @@
-pageextension 50103 PostSalesInvExtCRF extends "Posted Sales Invoice"
+pageextension 50103 "PostSalesInvExtCRF" extends "Posted Sales Invoice"
 {
     layout
     {
