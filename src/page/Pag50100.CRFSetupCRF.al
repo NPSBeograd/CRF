@@ -1,9 +1,9 @@
-page 50100 "CRFSetupCRF"
+page 50100 "CRF Setup"
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = CRFSetupCRF;
+    SourceTable = "CRF Setup";
 
     layout
     {

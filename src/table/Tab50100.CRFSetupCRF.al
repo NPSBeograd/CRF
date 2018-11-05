@@ -1,4 +1,4 @@
-table 50100 "CRFSetupCRF"
+table 50100 "CRF Setup"
 {
     DataClassification = ToBeClassified;
     Caption = 'CRF Setup';
