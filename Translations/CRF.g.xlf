@@ -143,6 +143,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CRF Setup - NamedType EnableServiceQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1784246011 - NamedType 2127484482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error while getting a token.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CRF Integration - NamedType TokenErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1784246011 - NamedType 1341415485" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice %1 was successfully sent to the CRF.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CRF Integration - NamedType SentInoviceInfo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1784246011 - NamedType 3700689421" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CRF Invoice No must not be empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CRF Integration - NamedType CRFNoErr</note>
+        </trans-unit>
         <trans-unit id="PageExtension 730597473 - Action 1803534033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Central Invoice Registry</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -52,6 +52,19 @@ codeunit 50100 "CRF Integration"
         end;
     end;
 
+    local procedure GetInvoice(CRFInvNo: Code[20]; CheckCRFSetup: Boolean)
+    var
+        VendLoc: Record Vendor;
+    begin
+        if CRFInvNo = '' then
+            Error(CRFNoErr);
+        CRFSetup.Get();
+        if NotificationInfo.Recall() then;
+        if not CRFSetup.Enabled then
+            CRFSetup.TestField(Enabled);
+        InitRequest(StrSubstNo(CRFSetup."Get Invoice URL", CRFInvNo), 'GET', RequestOptions::GetInvoice);
+    end;
+
     local procedure SetTokenRequest(var RequestBodyJson: Text)
     var
         JObjectLoc: JsonObject;
@@ -72,15 +85,31 @@ codeunit 50100 "CRF Integration"
         exit(JsonTokenLoc.AsValue().AsText());
     end;
 
+    local procedure GetAccessToken()
+    var
+        myInt: Integer;
+    begin
+        if not CRFSetup.Enabled then
+            exit;
+        AccessToken := '';
+        InitRequest(CRFSetup."Token URL", 'POST', RequestOptions::GetToken);
+    end;
 
     var
         CRFSetup: Record "CRF Setup";
+        HttpWebRequestMgt: Codeunit "Http Web Request Mgt.";
         HttpContentVar: HttpContent;
         HttpHeadersVar: HttpHeaders;
         RequestMessage: HttpRequestMessage;
         ResponseMessage: HttpResponseMessage;
+        InStr: InStream;
         JsonText: Text;
         JsonTokenVar: JsonToken;
         JsonObjectVar: JsonObject;
         AccessToken: Text;
+        NotificationInfo: Notification;
+        RequestOptions: Option GetToken,RegisterInvoice,GetInvoice,CancelInvoice,Ping;
+        TokenErr: Label 'Error while getting a token.';
+        SentInoviceInfo: Label 'Invoice %1 was successfully sent to the CRF.';
+        CRFNoErr: Label 'CRF Invoice No must not be empty.';
 }
