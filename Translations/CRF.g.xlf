@@ -158,6 +158,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CRF Integration - NamedType CRFNoErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1784246011 - NamedType 3091819262" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Getting Invoice Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CRF Integration - NamedType GetInvoiceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1784246011 - NamedType 2484793908" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Getting Token Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CRF Integration - NamedType GetTokenErr</note>
+        </trans-unit>
         <trans-unit id="PageExtension 730597473 - Action 1803534033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Central Invoice Registry</source>
           <note from="Developer" annotates="general" priority="2"></note>

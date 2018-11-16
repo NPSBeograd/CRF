@@ -27,7 +27,7 @@ codeunit 50100 "CRF Integration"
 
                     if not HttpClientVarLoc.Post(UrlParam, HttpContentVar, ResponseMessage) then begin
                         ResponseMessage.Content().ReadAs(JsonText);
-                        Error('Greska prilikom preuzimanja tokena\' + JsonText);
+                        Error(GetTokenErr + '\' + JsonText);
                     end;
                     ResponseMessage.Content().ReadAs(JsonText);
                     JsonTokenVar.ReadFrom(JsonText);
@@ -43,7 +43,7 @@ codeunit 50100 "CRF Integration"
                     HttpClientVarLoc.DefaultRequestHeaders().Add('User-Agent', 'Dynamics 365');
                     HttpClientVarLoc.DefaultRequestHeaders().Add('Authorization', 'Bearer ' + AccessToken);
                     if not HttpClientVarLoc.Get(UrlParam, ResponseMessage) then
-                        Error('Greska prilikom preuzimanja fakture');
+                        Error(GetInvoiceErr);
                     ResponseMessage.Content().ReadAs(JsonText);
                     JsonTokenVar.ReadFrom(JsonText);
                     JsonObjectVar := JsonTokenVar.AsObject();
@@ -112,4 +112,6 @@ codeunit 50100 "CRF Integration"
         TokenErr: Label 'Error while getting a token.';
         SentInoviceInfo: Label 'Invoice %1 was successfully sent to the CRF.';
         CRFNoErr: Label 'CRF Invoice No must not be empty.';
+        GetInvoiceErr: Label 'Getting Invoice Error';
+        GetTokenErr: Label 'Getting Token Error';
 }
