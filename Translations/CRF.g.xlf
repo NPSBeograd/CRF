@@ -168,6 +168,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CRF Integration - NamedType GetTokenErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1784246011 - NamedType 670425976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no vendor with VAT Registration %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CRF Integration - NamedType VendErr</note>
+        </trans-unit>
         <trans-unit id="PageExtension 730597473 - Action 1803534033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Central Invoice Registry</source>
           <note from="Developer" annotates="general" priority="2"></note>

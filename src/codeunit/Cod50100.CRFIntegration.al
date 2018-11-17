@@ -9,6 +9,8 @@ codeunit 50100 "CRF Integration"
     var
         RequestBodyJson: Text;
         HttpClientVarLoc: HttpClient;
+        VendLoc: Record Vendor;
+        CRFInvLoc: Code[20];
     begin
         CRFSetup.Get();
         if not (RequestOptionParam in [RequestOptionParam::Ping, RequestOptionParam::GetToken]) then
@@ -47,7 +49,11 @@ codeunit 50100 "CRF Integration"
                     ResponseMessage.Content().ReadAs(JsonText);
                     JsonTokenVar.ReadFrom(JsonText);
                     JsonObjectVar := JsonTokenVar.AsObject();
-                    SelelctJsonToken(JsonObjectVar, StrSubstNo(CRFSetup."Get Invoice Parser Query", 'invoiceId'));
+                    VendLoc.SetRange("VAT Registration No.", SelelctJsonToken(JsonObjectVar, StrSubstNo(CRFSetup."Get Invoice Parser Query", 'creditorTaxIdNumber')));
+                    //VendLoc.SetRange("Registration No. 2",SelelctJsonToken(JsonObjectVar,StrSubstNo(CRFSetup."Get Invoice Parser Query",'creditorCompanyNumber')));
+                    if VendLoc.FindFirst() then
+                        Error(VendErr,SelelctJsonToken(JsonObjectVar, StrSubstNo(CRFSetup."Get Invoice Parser Query", 'creditorTaxIdNumber')));
+                    CRFInvLoc := SelelctJsonToken(JsonObjectVar, StrSubstNo(CRFSetup."Get Invoice Parser Query", 'invoiceId'));
                 end;
         end;
     end;
@@ -114,4 +120,5 @@ codeunit 50100 "CRF Integration"
         CRFNoErr: Label 'CRF Invoice No must not be empty.';
         GetInvoiceErr: Label 'Getting Invoice Error';
         GetTokenErr: Label 'Getting Token Error';
+        VendErr: Label 'There is no vendor with VAT Registration %1';
 }
