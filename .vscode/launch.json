@@ -5,9 +5,9 @@
             "type": "al",
             "request": "launch",
             "name": "Your own server",
-            "server": "http://localhost",
-            "serverInstance": "BC130",
-            "authentication": "Windows",
+            "server": "http://bc2018rs-m",
+            "serverInstance": "NAV",
+            "authentication": "UserPassword",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": true
