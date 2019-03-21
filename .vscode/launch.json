@@ -5,7 +5,7 @@
             "type": "al",
             "request": "launch",
             "name": "Your own server",
-            "server": "http://bc2018rs-m",
+            "server": "http://bc2018rs",
             "serverInstance": "NAV",
             "authentication": "UserPassword",
             "startupObjectId": 22,

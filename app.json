@@ -10,16 +10,17 @@
   "help": "",
   "url": "",
   "logo": "",
+  "capabilities": [],
   "dependencies": [],
   "screenshots": [],
   "platform": "13.0.0.0",
   "application": "13.0.0.0",
   "idRange": {
     "from": 50100,
-    "to": 50149
+    "to": 50145
   },
   "features": [
     "TranslationFile"
   ],
-  "runtime": "3.0"
+  "runtime": "2.0"
 }
